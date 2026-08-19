@@ -22,7 +22,7 @@ export default async function Home() {
   };
 
   return (
-    <main className="bg-background overflow-hidden">
+    <main className="bg-background">
       <Navbar />
       <Hero heroTranslations={heroTranslations} />
       <SellProduct />

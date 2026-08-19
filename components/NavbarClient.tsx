@@ -38,7 +38,7 @@ export default function NavbarClient({
 
   return (
     <nav
-      className={`sticky top-0 z-50 transition-all duration-300 ${
+      className={`sticky top-0 left-0 z-50 transition-all duration-300 ${
         isScrolled ? "bg-white shadow-[0_0_20px_0_rgba(0,0,0,0.08)]" : ""
       }`}
     >
