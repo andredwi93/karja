@@ -13,9 +13,9 @@ export default async function Testimonial() {
       text: (
         <>
           Awalnya aku cuma{" "}
-          <strong className="text-karja-green">bikin template CV ATS</strong>{" "}
+          <strong className="text-secondary">bikin template CV ATS</strong>{" "}
           buat teman-teman kampus yang lagi cari magang.{" "}
-          <strong className="text-karja-green">
+          <strong className="text-secondary">
             Banyak yang minta file-nya, jadi aku pikir kenapa nggak sekalian
             dijual aja.
           </strong>
@@ -23,7 +23,7 @@ export default async function Testimonial() {
           <br />
           Aku upload ke Karja tanpa ekspektasi apa-apa. Minggu pertama cuma
           kejual beberapa, tapi ternyata lama-lama makin banyak yang beli.{" "}
-          <strong className="text-karja-green">
+          <strong className="text-secondary">
             Sekarang tiap bulan ada aja sih yang download.
           </strong>
           <br />
@@ -41,12 +41,12 @@ export default async function Testimonial() {
         <>
           Saya bekerja full-time di sebuah perusahaan logistik. Di sela waktu,
           saya{" "}
-          <strong className="text-karja-green">bikin tools budgeting</strong>{" "}
+          <strong className="text-secondary">bikin tools budgeting</strong>{" "}
           sederhana berbasis web untuk dipakai sendiri.
           <br />
           <br />
           Awalnya cuma untuk kebutuhan pribadi, tapi kemudian saya{" "}
-          <strong className="text-karja-green">
+          <strong className="text-secondary">
             coba upload dan jual sebagai SaaS di Karja
           </strong>
           .
@@ -54,7 +54,7 @@ export default async function Testimonial() {
           <br />
           Ternyata cukup banyak yang butuh solusi simpel seperti ini. Sekarang
           sudah ada{" "}
-          <strong className="text-karja-green">
+          <strong className="text-secondary">
             user yang langganan tiap bulan.
           </strong>
           <br />
@@ -77,12 +77,12 @@ export default async function Testimonial() {
           <br />
           <br />
           Akhirnya aku coba{" "}
-          <strong className="text-karja-green">
+          <strong className="text-secondary">
             buka konsultasi finansial
           </strong>{" "}
           di Karja. Jujur awalnya iseng, siapa tahu ada yang butuh. Ternyata
           cukup banyak yang relate. Sekarang tiap minggu{" "}
-          <strong className="text-karja-green">
+          <strong className="text-secondary">
             ada aja yang booking sesi
           </strong>
           .
@@ -106,22 +106,22 @@ export default async function Testimonial() {
           <br />
           <br />
           Akhirnya saya coba{" "}
-          <strong className="text-karja-green">
+          <strong className="text-secondary">
             buka layanan konseling
           </strong>{" "}
           di Karja. Supaya{" "}
-          <strong className="text-karja-green">lebih mudah diakses</strong>.
+          <strong className="text-secondary">lebih mudah diakses</strong>.
           <br />
           <br />
           Ternyata banyak yang merasa{" "}
-          <strong className="text-karja-green">
+          <strong className="text-secondary">
             lebih nyaman booking secara online
           </strong>
           . Sekarang cukup rutin ada sesi tiap minggu.
           <br />
           <br />
           Rasanya menyenangkan,{" "}
-          <strong className="text-karja-green">
+          <strong className="text-secondary">
             bisa bantu orang sekaligus membangun channel baru untuk praktik
             saya.
           </strong>
@@ -132,13 +132,13 @@ export default async function Testimonial() {
 
   return (
     <>
-      <section className="bg-primary py-16 lg:py-24 px-6">
+      <section className="bg-primary py-12 sm:py-16 lg:py-24 px-4 sm:px-6">
         {/* Stat */}
-        <ScrollReveal direction="up" className="text-center mb-16">
-          <p className="text-white font-bold text-[80px] md:text-[128px] leading-none">
+        <ScrollReveal direction="up" className="text-center mb-10 sm:mb-14 lg:mb-16">
+          <p className="text-white font-bold text-[64px] sm:text-[88px] md:text-[128px] leading-none">
             167
           </p>
-          <p className="text-white text-[20px] md:h3 font-normal mt-2">
+          <p className="text-white text-base sm:text-[20px] md:text-h3 font-normal mt-2">
             {t("product_sold")}
           </p>
         </ScrollReveal>
@@ -154,23 +154,23 @@ export default async function Testimonial() {
                 direction="up"
                 className="flex flex-col gap-5"
               >
-                <div className="bg-white rounded-[32px] rounded-bl-[8px] p-8 relative">
+                <div className="bg-white rounded-3xl rounded-bl-[8px] p-5 sm:p-7 lg:p-8 relative">
                   <p className="text-black font-extrabold text-[40px] leading-none mb-2">
                     “
                   </p>
-                  <p className="text-black text-[15px] font-normal leading-relaxed">
+                  <p className="text-black text-[14px] sm:text-[15px] font-normal leading-relaxed">
                     {t.text}
                   </p>
                 </div>
-                <div className="flex items-center gap-4 px-2">
+                <div className="flex items-center gap-3 sm:gap-4 px-1 sm:px-2">
                   <img
                     src={t.avatar}
                     alt={t.handle}
-                    className="w-[60px] h-[60px] rounded-full object-cover shrink-0"
+                    className="w-12 h-12 sm:w-[60px] sm:h-[60px] rounded-full object-cover shrink-0"
                   />
                   <div>
-                    <p className="text-white font-bold text-t1">{t.handle}</p>
-                    <p className="text-white/80 text-[14px] mt-0.5">{t.role}</p>
+                    <p className="text-white font-bold text-base sm:text-t1">{t.handle}</p>
+                    <p className="text-white/80 text-[13px] sm:text-[14px] mt-0.5">{t.role}</p>
                   </div>
                 </div>
               </ScrollReveal>
@@ -186,23 +186,23 @@ export default async function Testimonial() {
                 direction="up"
                 className="flex flex-col gap-5"
               >
-                <div className="bg-white rounded-[32px] rounded-bl-[8px] p-8 relative">
+                <div className="bg-white rounded-3xl rounded-bl-[8px] p-5 sm:p-7 lg:p-8 relative">
                   <p className="text-black font-extrabold text-[40px] leading-none mb-2">
                     “
                   </p>
-                  <p className="text-black text-[15px] font-normal leading-relaxed">
+                  <p className="text-black text-[14px] sm:text-[15px] font-normal leading-relaxed">
                     {t.text}
                   </p>
                 </div>
-                <div className="flex items-center gap-4 px-2">
+                <div className="flex items-center gap-3 sm:gap-4 px-1 sm:px-2">
                   <img
                     src={t.avatar}
                     alt={t.handle}
-                    className="w-[60px] h-[60px] rounded-full object-cover shrink-0"
+                    className="w-12 h-12 sm:w-[60px] sm:h-[60px] rounded-full object-cover shrink-0"
                   />
                   <div>
-                    <p className="text-white font-bold text-t1">{t.handle}</p>
-                    <p className="text-white/80 text-[14px] mt-0.5">{t.role}</p>
+                    <p className="text-white font-bold text-base sm:text-t1">{t.handle}</p>
+                    <p className="text-white/80 text-[13px] sm:text-[14px] mt-0.5">{t.role}</p>
                   </div>
                 </div>
               </ScrollReveal>
@@ -212,12 +212,12 @@ export default async function Testimonial() {
       </section>
 
       {/* ─── FINAL PUNCHLINE ─── */}
-      <section className="bg-primary py-16 px-6">
+      <section className="bg-primary py-12 sm:py-16 px-4 sm:px-6">
         <ScrollReveal direction="up" className="max-w-[1100px] mx-auto">
-          <div className="bg-karja-bg rounded-[25px] p-6 md:p-8">
+          <div className="bg-background rounded-3xl p-4 sm:p-6 md:p-8">
             {/* Top banner */}
             <div className="border border-primary rounded-[15px] bg-white p-4 text-center mb-6">
-              <p className="text-black font-bold text-xl md:h3">
+              <p className="text-black font-bold text-lg sm:text-xl md:text-h3 leading-tight">
                 {t("not_ready.title")}
               </p>
             </div>
@@ -225,9 +225,9 @@ export default async function Testimonial() {
             {/* Two panels */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mb-6">
               {/* Left panel */}
-              <div className="border border-primary rounded-[15px] bg-white p-4 relative overflow-hidden min-h-[320px]">
+              <div className="border border-primary rounded-[15px] bg-white p-4 relative overflow-hidden min-h-[280px] sm:min-h-[320px]">
                 <div className="border border-primary rounded-[10px] bg-white inline-block px-4 py-2 mb-4">
-                  <p className="text-black text-t1">
+                  <p className="text-black text-sm sm:text-t1">
                     {t("not_ready.wait_perfect")}
                   </p>
                 </div>
@@ -235,20 +235,20 @@ export default async function Testimonial() {
                   <img
                     src="https://api.builder.io/api/v1/image/assets/TEMP/d410e9f484f78a90c8ee5482fc903ada1555bc59?width=600"
                     alt=""
-                    className="w-[200px] md:w-[240px] object-contain"
+                    className="w-[170px] sm:w-[200px] md:w-[240px] object-contain"
                   />
                 </div>
-                <div className="border border-primary rounded-[10px] bg-white inline-block px-4 py-2 absolute bottom-4 right-4">
-                  <p className="text-black text-t1">
+                <div className="border border-primary rounded-[10px] bg-white inline-block px-4 py-2 absolute bottom-4 right-4 left-4 sm:left-auto">
+                  <p className="text-black text-sm sm:text-t1">
                     {t("not_ready.never_start")}
                   </p>
                 </div>
               </div>
 
               {/* Right panel */}
-              <div className="border border-primary rounded-[15px] bg-white p-4 relative overflow-hidden min-h-[320px]">
+              <div className="border border-primary rounded-[15px] bg-white p-4 relative overflow-hidden min-h-[280px] sm:min-h-[320px]">
                 <div className="border border-primary rounded-[10px] bg-white inline-block px-4 py-2 mb-4">
-                  <p className="text-black text-t1">
+                  <p className="text-black text-sm sm:text-t1">
                     {t("not_ready.upload_share")}
                   </p>
                 </div>
@@ -256,11 +256,11 @@ export default async function Testimonial() {
                   <img
                     src="https://api.builder.io/api/v1/image/assets/TEMP/b6f1fc9c1f8e17800af96f3c2d6aa3141ed546f3?width=600"
                     alt=""
-                    className="w-[200px] md:w-[240px] object-contain"
+                    className="w-[170px] sm:w-[200px] md:w-[240px] object-contain"
                   />
                 </div>
-                <div className="border border-primary rounded-[10px] bg-white inline-block px-4 py-2 absolute bottom-4 right-4">
-                  <p className="text-black text-t1">
+                <div className="border border-primary rounded-[10px] bg-white inline-block px-4 py-2 absolute bottom-4 right-4 left-4 sm:left-auto">
+                  <p className="text-black text-sm sm:text-t1">
                     {t("not_ready.maybe_need")}
                   </p>
                 </div>
@@ -269,7 +269,7 @@ export default async function Testimonial() {
 
             {/* Bottom banner */}
             <div className="border border-primary rounded-[15px] bg-white p-4 text-center">
-              <p className="text-black font-bold text-xl md:h3">
+              <p className="text-black font-bold text-lg sm:text-xl md:text-h3 leading-tight">
                 {t("not_ready.start_what_you_have")}
               </p>
             </div>
@@ -278,12 +278,12 @@ export default async function Testimonial() {
       </section>
 
       {/* ─── FINAL CTA ─── */}
-      <section className="bg-primary pb-24 px-6 text-center">
+      <section className="bg-primary pb-16 sm:pb-24 px-4 sm:px-6 text-center">
         <ScrollReveal delay={0.2} direction="up">
-          <p className="text-white font-semibold text-4xl md:text-h1">
+          <p className="text-white font-semibold text-[32px] sm:text-4xl md:text-h1 leading-tight">
             {t("not_ready.cta_heading")}
           </p>
-          <p className="text-[32px] md:text-h1 font-semibold mt-1 text-white">
+          <p className="text-[28px] sm:text-[36px] md:text-h1 font-semibold mt-1 text-white leading-tight">
             {t.rich("not_ready.cta_subheading", {
               green: (chunks) => (
                 <span className="text-tertiary">{chunks}</span>

@@ -21,11 +21,11 @@ export default function LanguageSwitcher({ currentLocale }: LanguageSwitcherProp
   };
 
   return (
-    <div className="flex items-center gap-1.5 rounded-full bg-zinc-100 p-1 text-sm font-semibold text-zinc-600">
+    <div className="flex shrink-0 items-center gap-1 rounded-full bg-zinc-100 p-1 text-xs font-semibold text-zinc-600 sm:gap-1.5 sm:text-sm">
       <button
         onClick={() => handleLocaleChange("id")}
         disabled={isPending}
-        className={`px-3 py-1 rounded-full transition-all duration-200 cursor-pointer ${
+        className={`px-2.5 py-1 rounded-full transition-all duration-200 cursor-pointer sm:px-3 ${
           currentLocale === "id"
             ? "bg-white text-zinc-950 shadow-xs"
             : "hover:text-zinc-900"
@@ -36,7 +36,7 @@ export default function LanguageSwitcher({ currentLocale }: LanguageSwitcherProp
       <button
         onClick={() => handleLocaleChange("en")}
         disabled={isPending}
-        className={`px-3 py-1 rounded-full transition-all duration-200 cursor-pointer ${
+        className={`px-2.5 py-1 rounded-full transition-all duration-200 cursor-pointer sm:px-3 ${
           currentLocale === "en"
             ? "bg-white text-zinc-950 shadow-xs"
             : "hover:text-zinc-900"

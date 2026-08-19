@@ -136,7 +136,7 @@ function ProductPill({
   isSvg?: boolean;
 }) {
   return (
-    <div className="flex items-center gap-2 h-[46px] px-4 rounded-full bg-white shadow-md whitespace-nowrap shrink-0">
+    <div className="flex h-11 shrink-0 items-center gap-2 whitespace-nowrap rounded-full bg-white px-3.5 shadow-md sm:h-[46px] sm:px-4">
       {isSvg ? (
         <svg
           width="28"
@@ -180,7 +180,7 @@ function ProductPill({
           className="w-7 h-7 object-contain shrink-0"
         />
       ) : null}
-      <span className="text-black text-t1 font-normal font-jakarta">
+      <span className="text-sm font-normal text-black sm:text-base lg:text-t1">
         {label}
       </span>
     </div>
@@ -193,21 +193,21 @@ import ScrollReveal from "@/components/ScrollReveal";
 export default async function Idea() {
   const t = await getTranslations("home");
   return (
-    <section id="idea" className="bg-karja-bg py-16 lg:py-24 overflow-hidden">
+    <section id="idea" className="bg-background py-12 sm:py-16 lg:py-24 overflow-hidden">
       {/* Heading */}
-      <ScrollReveal direction="up" className="text-center mb-8 md:mb-12 px-6">
-        <p className="text-black font-bold text-[32px] md:text-[64px] leading-tight">
+      <ScrollReveal direction="up" className="text-center mb-8 md:mb-12 px-4 sm:px-6">
+        <p className="text-black font-bold text-[32px] leading-tight sm:text-[42px] md:text-[56px] lg:text-[64px]">
           {t.rich("have_idea", {
             green: (chunks) => <span className="text-secondary">{chunks}</span>,
           })}
         </p>
-        <p className="text-black text-[20px] md:text-h1 font-semibold mt-2">
+        <p className="text-black text-[22px] sm:text-[30px] md:text-[40px] lg:text-h1 font-semibold mt-2 leading-tight">
           {t.rich("try", {
             green: (chunks) => <span className="text-secondary">{chunks}</span>,
           })}
         </p>
       </ScrollReveal>
-      <ScrollReveal delay={0.2} direction="up" className="flex flex-col gap-5 pb-4 px-6 md:px-12">
+      <ScrollReveal delay={0.2} direction="up" className="flex flex-col gap-4 pb-4 px-4 sm:px-6 md:px-12 md:gap-5">
         {productPills.map((row, rowIdx) => {
           let animationStyle = {};
           if (rowIdx === 0) {

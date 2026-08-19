@@ -16,7 +16,7 @@ export default async function SellProduct() {
   };
 
   return (
-    <section className="w-full max-w-[1200px] mx-auto mt-20 px-6 lg:px-0 py-12 md:py-20 select-none">
+    <section className="w-full max-w-[1200px] mx-auto mt-4 px-4 py-10 select-none sm:mt-8 sm:px-6 md:py-16 lg:mt-12 lg:px-6 xl:px-0 xl:py-20">
       {/* Desktop Version: Interlocking Custom SVG Border Grid Layout */}
       <div className="hidden lg:relative lg:block lg:w-full lg:h-[620px]">
         {/* Background Interlocking SVGs */}
@@ -149,11 +149,11 @@ export default async function SellProduct() {
       </div>
 
       {/* Mobile/Tablet Version: Simple Stacked Cards */}
-      <div className="flex flex-col gap-10 lg:hidden">
+      <div className="flex flex-col gap-5 md:grid md:grid-cols-2 md:items-stretch lg:hidden">
         {/* Card 1: Bikin dan jual */}
-        <ScrollReveal direction="up" className="w-full bg-white border border-primary rounded-[32px] p-6 flex flex-col gap-6 shadow-md">
+        <ScrollReveal direction="up" className="w-full h-full bg-white border border-primary rounded-3xl p-5 sm:p-6 flex flex-col gap-5 shadow-md">
           <div>
-            <h2 className="text-2xl font-extrabold text-quaternary">
+            <h2 className="text-[24px] sm:text-[28px] font-extrabold leading-tight text-quaternary">
               {featuresTranslations.create_sell_title}
             </h2>
           </div>
@@ -170,29 +170,29 @@ export default async function SellProduct() {
           </div>
 
           <div>
-            <h3 className="text-lg font-bold text-quaternary leading-snug">
+            <h3 className="text-base sm:text-lg font-bold text-quaternary leading-snug">
               {featuresTranslations.product_types}
             </h3>
-            <p className="text-sm font-medium text-zinc-500 mt-2 leading-relaxed">
+            <p className="text-sm sm:text-base font-medium text-zinc-500 mt-2 leading-relaxed">
               {featuresTranslations.description}
             </p>
           </div>
         </ScrollReveal>
 
         {/* Card 2: Kerja sesukamu */}
-        <ScrollReveal direction="up" delay={0.2} className="w-full bg-white border border-primary rounded-[32px] p-6 flex flex-col gap-6 shadow-md">
+        <ScrollReveal direction="up" delay={0.2} className="w-full h-full bg-white border border-primary rounded-3xl p-5 sm:p-6 flex flex-col gap-5 shadow-md">
           <div className="flex flex-col gap-4">
-            <h2 className="text-2xl font-extrabold text-quaternary">
+            <h2 className="text-[24px] sm:text-[28px] font-extrabold leading-tight text-quaternary">
               {featuresTranslations.work_terms_title}
             </h2>
             <div className="flex flex-col gap-2">
-              <p className="text-sm font-semibold text-zinc-700">
+              <p className="text-sm sm:text-base font-semibold text-zinc-700">
                 • {featuresTranslations.flexibility}
               </p>
-              <p className="text-sm font-semibold text-zinc-700">
+              <p className="text-sm sm:text-base font-semibold text-zinc-700">
                 • {featuresTranslations.extra_income}
               </p>
-              <p className="text-sm font-semibold text-zinc-700">
+              <p className="text-sm sm:text-base font-semibold text-zinc-700">
                 • {featuresTranslations.work_help}
               </p>
             </div>

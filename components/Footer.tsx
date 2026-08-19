@@ -6,7 +6,7 @@ export default async function Footer() {
 
   return (
     <footer className="bg-background">
-      <div className="w-full max-w-[1200px] mx-auto rounded-t-[40px] md:rounded-t-[80px] py-10 md:py-12 px-6">
+      <div className="w-full max-w-[1200px] mx-auto rounded-t-[40px] md:rounded-t-[80px] py-9 md:py-12 px-4 sm:px-6">
         <div className="max-w-[1320px] mx-auto flex flex-col xl:flex-row items-center justify-between gap-8">
           <div className="flex flex-col md:flex-row items-center gap-4 md:gap-6">
             <Image
@@ -17,7 +17,7 @@ export default async function Footer() {
               className="h-8 md:h-10 w-auto object-contain"
               priority
             />
-            <p className="font-bold text-h4 md:text-h3 text-black">
+            <p className="font-bold text-xl sm:text-h4 md:text-h3 text-black text-center md:text-left leading-tight">
               {t.rich("title", {
                 green: (chunks) => <span className="text-secondary">{chunks}</span>
               })}
@@ -25,7 +25,7 @@ export default async function Footer() {
           </div>
 
           <div className="flex flex-col md:flex-row items-center gap-8 md:gap-10">
-            <div className="flex items-center gap-6 md:gap-8">
+            <div className="flex flex-wrap items-center justify-center gap-x-5 gap-y-3 md:gap-x-8">
               <a
                 href="#"
                 className="text-secondary font-bold text-[15px] hover:opacity-80 transition-opacity"

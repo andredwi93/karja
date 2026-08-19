@@ -59,7 +59,7 @@ export default function Hero({ heroTranslations }: HeroProps) {
   };
 
   return (
-    <section className="w-full max-w-[1300px] mx-auto relative bg-background py-20 sm:py-28 md:py-36">
+    <section className="w-full max-w-[1300px] mx-auto relative bg-background px-4 pt-12 pb-16 sm:px-6 sm:pt-18 sm:pb-24 md:pt-24 md:pb-28 lg:pt-28 lg:pb-32">
       {/* Self-contained styling for float animations */}
       <style jsx global>{`
         @keyframes float-slow {
@@ -93,7 +93,7 @@ export default function Hero({ heroTranslations }: HeroProps) {
         initial={{ opacity: 0, scale: 0.8 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 1, delay: 0.5 }}
-        className="absolute left-[-20px] top-[15%] z-10 w-[140px] opacity-25 sm:w-[200px] md:left-[2%] md:opacity-100 lg:w-[260px] xl:w-[320px] pointer-events-none select-none animate-float-slow"
+        className="hidden md:block absolute left-[-32px] top-[20%] z-10 w-[190px] opacity-80 lg:left-[1%] lg:w-[250px] xl:w-[300px] pointer-events-none select-none animate-float-slow"
       >
         <Image
           src="/assets/decoration-left.webp"
@@ -110,7 +110,7 @@ export default function Hero({ heroTranslations }: HeroProps) {
         initial={{ opacity: 0, scale: 0.8 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 1, delay: 0.7 }}
-        className="absolute right-[-20px] top-[15%] z-10 w-[140px] opacity-25 sm:w-[200px] md:right-[2%] md:opacity-100 lg:w-[260px] xl:w-[320px] pointer-events-none select-none animate-float-delayed"
+        className="hidden md:block absolute right-[-32px] top-[20%] z-10 w-[190px] opacity-80 lg:right-[1%] lg:w-[250px] xl:w-[300px] pointer-events-none select-none animate-float-delayed"
       >
         <Image
           src="/assets/decoration-right.webp"
@@ -128,15 +128,15 @@ export default function Hero({ heroTranslations }: HeroProps) {
         variants={containerVariants}
         initial="hidden"
         animate="visible"
-        className="relative z-20 mx-auto max-w-4xl px-6 text-center sm:px-8 flex flex-col items-center"
+        className="relative z-20 mx-auto flex max-w-4xl flex-col items-center text-center"
       >
         {/* Main Title */}
-        <motion.h1 variants={itemVariants} className="text-h1 font-bold tracking-tight text-quaternary sm:text-5xl md:text-6xl max-w-2xl leading-[1.1]">
+        <motion.h1 variants={itemVariants} className="max-w-[760px] text-[38px] font-bold leading-[1.08] tracking-normal text-quaternary sm:text-[48px] md:text-[56px] lg:text-[64px]">
           {heroTranslations.title}
         </motion.h1>
 
         {/* Subtitles */}
-        <motion.div variants={itemVariants} className="mt-6 flex flex-col gap-1 text-lg sm:text-xl font-medium text-quaternary">
+        <motion.div variants={itemVariants} className="mt-5 flex max-w-[620px] flex-col gap-1 text-base font-medium leading-relaxed text-quaternary sm:mt-6 sm:text-lg md:text-xl">
           <p>{parseGreenText(heroTranslations.subtitle1)}</p>
           <p>{parseGreenText(heroTranslations.subtitle2)}</p>
         </motion.div>
@@ -145,9 +145,9 @@ export default function Hero({ heroTranslations }: HeroProps) {
         <motion.form
           variants={itemVariants}
           onSubmit={handleSearchSubmit}
-          className="mt-10 w-full max-w-lg relative flex items-center group"
+          className="group relative mt-8 flex w-full max-w-[560px] flex-col gap-3 rounded-[28px] border border-zinc-200/80 bg-zinc-50 p-2 shadow-xs transition-all focus-within:border-secondary focus-within:bg-white focus-within:ring-4 focus-within:ring-secondary/10 sm:mt-10 sm:flex-row sm:items-center sm:rounded-full"
         >
-          <div className="absolute left-4 text-zinc-400 group-focus-within:text-secondary transition-colors">
+          <div className="absolute left-5 top-5 text-zinc-400 transition-colors group-focus-within:text-secondary sm:top-1/2 sm:-translate-y-1/2">
             <Search className="h-5 w-5" />
           </div>
           <input
@@ -155,19 +155,19 @@ export default function Hero({ heroTranslations }: HeroProps) {
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
             placeholder={heroTranslations.search_placeholder}
-            className="w-full pl-12 pr-28 py-4 bg-zinc-50 border border-zinc-200/80 rounded-full text-base font-medium outline-hidden focus:bg-white focus:border-secondary focus:ring-4 focus:ring-secondary/10 transition-all shadow-xs"
+            className="min-h-12 w-full rounded-full bg-transparent pl-11 pr-3 text-sm font-medium outline-hidden sm:text-base"
           />
           <button
             type="submit"
-            className="absolute right-2 px-6 py-2 rounded-full bg-secondary text-white text-sm font-semibold hover:bg-quaternary transition-colors cursor-pointer"
+            className="min-h-11 rounded-full bg-secondary px-6 text-sm font-semibold text-white transition-colors hover:bg-quaternary cursor-pointer sm:min-h-10"
           >
             Cari
           </button>
         </motion.form>
 
         {/* Start Selling CTA Button */}
-        <motion.div variants={itemVariants} className="mt-8">
-          <Button>{heroTranslations.start_selling}</Button>
+        <motion.div variants={itemVariants} className="mt-7 sm:mt-8">
+          <Button className="px-8 text-base sm:px-10 sm:text-lg">{heroTranslations.start_selling}</Button>
         </motion.div>
       </motion.div>
     </section>
