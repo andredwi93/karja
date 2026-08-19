@@ -1,0 +1,42 @@
+{
+  "sidebar": {
+    "home": "Home",
+    "product": "Product",
+    "sold": "Sold",
+    "wallet": "Wallet",
+    "store": "Store",
+    "explore": "Explore",
+    "settings": "Settings",
+    "help": "Help",
+    "logout": "Logout"
+  },
+  "header": {
+    "greeting": "Hello, <green>{name}</green>!",
+    "question": "What are you going to sell today?"
+  },
+  "onboarding": {
+    "title": "Start from here",
+    "progress": "{completed} of {total} steps completed",
+    "hide": "Hide",
+    "show": "Show",
+    "step1": {
+      "title": "1. Set up store",
+      "desc": "Give a name & short description. So people immediately know what you sell."
+    },
+    "step2": {
+      "title": "2. Upload product",
+      "desc": "Insert image, price & details. Save, product instantly goes to the list."
+    },
+    "step3": {
+      "title": "3. Share product link",
+      "desc": "Copy the link, put it in your bio / social media posts. Let everyone know and get interested."
+    }
+  },
+  "activity": {
+    "title": "Activity",
+    "total_product": "Total product",
+    "total_viewed": "Total viewed",
+    "total_sales": "Total sales",
+    "total_income": "Total income"
+  }
+}

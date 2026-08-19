@@ -1,0 +1,59 @@
+{
+    "navbar": {
+        "explore": "Jelajahi Karja",
+        "login": "Masuk",
+        "start_selling": "Mulai Jualan"
+    },
+    "hero": {
+        "title": "Dari nol, sampai ada",
+        "subtitle1": "Mulai dari apa yang kamu tahu. <green>Jual</green>.",
+        "subtitle2": "Lihat mana yang jalan. <green>Ulangi</green>.",
+        "search_placeholder": "Cari template, saas, atau jasa...",
+        "start_selling": "Mulai Jualan"
+    },
+    "features": {
+        "create_sell_title": "Bikin dan jual produkmu",
+        "work_terms_title": "Kerja sesukamu",
+        "flexibility": "Butuh fleksibilitas?",
+        "extra_income": "Ingin punya penghasilan tambahan?",
+        "work_help": "Kerja bantu kamu dengan caramu sendiri.",
+        "product_types": "Kelas online. Konsultasi 1:1. Template. SaaS. Ebook.",
+        "description": "Karja dibuat untuk membantu kamu mencoba berbagai ide dan mulai dibayar dari apa yang kamu bikin."
+    },
+    "have_idea": "Kamu punya banyak <green>ide</green>",
+    "try": "Coba satu, bisa <green>apa aja</green>",
+    "process": {
+        "title": "Lalu lihat apa yang terjadi,",
+        "card": {
+            "buy": "Kalo ada yang beli",
+            "buy_sub": "Lanjutkan dan ulangi",
+            "make": "Bikin sesuatu",
+            "make_sub": "Ide kecil saja cukup",
+            "share": "Bagikan link",
+            "share_sub": "Ke teman, audience, atau internet.",
+            "upload": "Upload ke Karja",
+            "upload_sub": "File, template, course, apa saja."
+        },
+        "footer_heading1": "Coba banyak ide",
+        "footer_heading2": "Temukan mana yang <green>benar-benar jalan</green>",
+        "footer_description": "Karja dibuat supaya siapa saja bisa mulai"
+    },
+    "product_sold": "produk terjual di Karja minggu lalu",
+    "not_ready": {
+        "title": "Ngerasa belum siap untuk bikin sesuatu?",
+        "wait_perfect": "Nunggu semuanya perfect...",
+        "never_start": "malah nggak mulai-mulai",
+        "upload_share": "Upload dan share link Karja...",
+        "maybe_need": "Barangkali ada yang butuh.",
+        "start_what_you_have": "Mulai dari yang kamu punya dulu aja.",
+        "cta_heading": "Kalau kamu mau nyoba",
+        "cta_subheading": "Karja <green>udah siap!</green>",
+        "cta_button": "Mulai Jualan"
+    },
+    "footer": {
+        "title": "Dari Nol, <green>Sampai Ada</green>",
+        "privacy": "Kebijakan Privasi",
+        "terms_condition": "Syarat dan Ketentuan",
+        "faq": "FAQ"
+    }
+}

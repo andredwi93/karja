@@ -1,0 +1,59 @@
+{
+    "navbar": {
+        "explore": "Explore Karja",
+        "login": "Login",
+        "start_selling": "Start Selling"
+    },
+    "hero": {
+        "title": "From zero to something real",
+        "subtitle1": "Start with what you know. <green>Sell</green>.",
+        "subtitle2": "See what works. <green>Repeat</green>.",
+        "search_placeholder": "Search templates or services...",
+        "start_selling": "Start Selling"
+    },
+    "features": {
+        "create_sell_title": "Create and sell your product",
+        "work_terms_title": "Work on your terms",
+        "flexibility": "Need flexibility?",
+        "extra_income": "Want extra income?",
+        "work_help": "Karja helps you earn, your way.",
+        "product_types": "Courses. 1:1 consultations. Templates. SaaS. Ebooks.",
+        "description": "Karja helps you explore ideas and get paid for what you build."
+    },
+    "have_idea": "You have a lot of <green>ideas</green>",
+    "try": "Try one, it could be <green>anything</green>!",
+    "process": {
+        "title": "Then see what happens,",
+        "card": {
+            "buy": "If someone buys",
+            "buy_sub": "Continue and repeat",
+            "make": "Make something",
+            "make_sub": "A small idea is enough",
+            "share": "Share the link",
+            "share_sub": "To friends, audience, or the internet.",
+            "upload": "Upload to Karja",
+            "upload_sub": "Files, templates, courses, anything."
+        },
+        "footer_heading1": "Try many ideas",
+        "footer_heading2": "Find what <green>actually works!</green>",
+        "footer_description": "Karja is built so anyone can start"
+    },
+    "product_sold": "products sold on Karja last week",
+    "not_ready": {
+        "title": "Feeling not ready to start something?",
+        "wait_perfect": "Waiting for everything to be perfect...",
+        "never_start": "but never getting started",
+        "upload_share": "Upload and share your Karja link...",
+        "maybe_need": "Maybe someone needs it.",
+        "start_what_you_have": "Just start with what you have.",
+        "cta_heading": "If you want to try",
+        "cta_subheading": "Karja <green>is ready!</green>",
+        "cta_button": "Start Selling"
+    },
+    "footer": {
+        "title": "From zero to <green>something real</green>",
+        "privacy": "Privacy Policy",
+        "terms_condition": "Terms of Service",
+        "faq": "FAQ"
+    }
+}

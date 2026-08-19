@@ -1,0 +1,16 @@
+{
+    "login_title": "Log in to Karja",
+    "register_title": "Start on Karja",
+    "login_description": "Pick up where you left off. Or start something today.",
+    "register_description": "You don't need to wait until you're ready. Just start.",
+    "or": "or",
+    "forgot_password": "Forgot password?",
+    "login": "Log In",
+    "dont_have_account": "Don't have an account? <green>Register here</green>",
+    "name": "Name",
+    "email": "Email",
+    "password": "Password",
+    "terms_condition": "By creating an account, you agree to Karja's Terms & Conditions and Privacy Policy",
+    "create_account": "Create Account",
+    "already_have_account": "Already have an account? <green>Log In</green>"
+}

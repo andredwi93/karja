@@ -1,0 +1,42 @@
+{
+  "sidebar": {
+    "home": "Beranda",
+    "product": "Produk",
+    "sold": "Terjual",
+    "wallet": "Uangmu",
+    "store": "Toko",
+    "explore": "Jelajah",
+    "settings": "Pengaturan",
+    "help": "Bantuan",
+    "logout": "Keluar"
+  },
+  "header": {
+    "greeting": "Halo, <green>{name}</green>!",
+    "question": "Apa yang akan kamu jual hari ini?"
+  },
+  "onboarding": {
+    "title": "Mulai dari sini",
+    "progress": "{completed} dari {total} langkah selesai",
+    "hide": "Sembunyikan",
+    "show": "Tampilkan",
+    "step1": {
+      "title": "1. Siapkan toko",
+      "desc": "Kasih nama & deskripsi singkat. Biar orang langsung paham kamu jual apa."
+    },
+    "step2": {
+      "title": "2. Upload produk",
+      "desc": "Masukkan gambar, harga & detail. Simpan, produk langsung masuk ke daftar."
+    },
+    "step3": {
+      "title": "3. Bagikan link produknya",
+      "desc": "Copy link-nya, taruh di bio / postingan sosmed. Biarin semuanya tau dan tertarik."
+    }
+  },
+  "activity": {
+    "title": "Aktivitas",
+    "total_product": "Total produk",
+    "total_viewed": "Total dilihat",
+    "total_sales": "Total penjualan",
+    "total_income": "Total penghasilan"
+  }
+}

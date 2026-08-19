@@ -1,0 +1,16 @@
+{
+    "login_title": "Masuk ke Karja",
+    "register_title": "Mulai di Karja",
+    "login_description": "Lanjutkan apa yang kamu mulai atau mulai sesuatu hari ini.",
+    "register_description": "Nggak perlu nunggu siap. Mulai aja dulu.",
+    "or": "atau",
+    "forgot_password": "Lupa password?",
+    "login": "Masuk",
+    "dont_have_account": "Belum punya akun? <green>daftar disini</green>",
+    "name": "Nama",
+    "email": "Email",
+    "password": "Password",
+    "terms_condition": "Dengan membuat akun, kamu setuju dengan Syarat & Ketentuan dan Kebijakan Privasi Karja",
+    "create_account": "Buat Akun",
+    "already_have_account": "Sudah punya akun? <green>Masuk</green>"
+}
